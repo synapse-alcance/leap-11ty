@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "title": "Leap",
+    "heading": "Leap Soluções em Tecnologia",
+    "description": "Marketing Digital | Automação",
+    "index": "/",
+    "lang": "pt-BR",
+    "charset": "utf-8"
+  },
+  "path": {
+    "prefix": "",
+    "assets": "/assets"
+  },
+  "links": {
+    "whatsapp": ""
+  }
+}

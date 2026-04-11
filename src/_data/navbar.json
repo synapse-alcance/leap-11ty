@@ -1,0 +1,12 @@
+[
+  { "key": "home", "label": "Início", "url": "/", "children": null},
+  { "key": "institucional", "label": "Institucional", "url": "/institucional/", "children": null },
+  { "key": "harpia", "label": "Harpia", "url": "/harpia/", "children": null },
+  { "key": "nautilus", "label": "Nautilus", "url": "/nautilus/", "children": null },
+  { "key": "prospectos", "label": "Prospectos", "url": "#", "children": [
+    { "key": "prospEmpresa", "label": "Empresa", "url": "#", "children": null },
+    { "key": "prospHarpia", "label": "Harpia", "url": "#", "children": null },
+    { "key": "prospNautilus", "label": "Nautilus", "url": "#", "children": null }
+ ] },
+  { "key": "contato", "label": "Contato", "url": "/contato/", "children": null }
+]

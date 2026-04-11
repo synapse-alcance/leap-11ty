@@ -1,0 +1,96 @@
+{
+  "banner": {
+    "logo": {
+      "imgSrc": "/images/logo_banner.png",
+      "imgAlt": "Logo da Leap Soluções em Tecnologia" 
+    },
+    "header": {
+      "title": "Experiência comprovada em óleo e gás, mineração e energia.",
+      "text": [
+        "Com base em uma expertise consolidada em engenharia de sistemas e inteligência artificial, desenvolvemos soluções tecnológicas de última geração que impulsionam a eficiência, a segurança e a inteligência operacional nas indústrias de base. Descubra como a Leap pode transformar seus desafios em vantagem competitiva."
+      ]
+    }
+  },
+  "intro": {
+    "header": {
+      "title": "Soluções que transformam a indústria",
+      "subtitle": "Revolucione suas operações",
+      "text": [
+        "Descubra como a tecnologia de ponta da Leap pode revolucionar seus processos de inspeção e garantir a proteção dos seus ativos. Com soluções avançadas impulsionadas por inteligência artificial, oferecemos precisão otimizada, eficiência incomparável e níveis superiores de segurança. Prepare-se para transformar sua operação com inovação, confiabilidade e resultados excepcionais."
+      ]
+    }
+  },
+  "competences": {
+    "header": {
+      "title": "Tecnologia, inteligência e confiabilidade",
+      "text": [
+        "Na Leap, combinamos expertise técnica com inovação para desenvolver soluções que realmente fazem a diferença. Nossa atuação une inteligência artificial, visão computacional, automação e engenharia de dados para enfrentar os desafios mais complexos da indústria moderna.",
+        "Buscamos excelência no desenvolvimento, aprimoramento e evolução de cada uma das competências que são pilares da nossa abordagem, tudo com o objetivo de oferecer a nossos clientes tecnologias avançadas aplicadas com confiabilidade, segurança e foco em resultados. É assim que entregamos valor — com inteligência, eficiência e impacto real."
+      ]
+    },
+    "articles": [
+      {
+        "imgSrc": "/images/analise-imagens-inteligencia-artificial.webp",
+        "imgAlt": "Grupo de engenheiros conversando em frente a telas com dashboards.",
+        "title": "Análise de imagens com Inteligência artificial",
+        "icon": "/images/insights-baseados-em-dados.webp",
+        "text": [
+          "Utilizamos algoritmos avançados de IA para processar imagens e detectar anomalias com alta precisão. Essa tecnologia permite extrair insights acionáveis a partir de grandes volumes de dados visuais, otimizando inspeções e antecipando falhas em ativos críticos.",
+          "Combinando visão computacional e aprendizado de máquina, nossas soluções oferecem confiabilidade e agilidade para operações industriais que exigem controle rigoroso e tomada de decisão baseada em evidências."
+        ]
+      },
+      {
+        "imgSrc": "/images/tecnologias-sensoriamento.webp",
+        "imgAlt": "Comparativo lado-a-lado do algoritmos de detecção de corrosão.",
+        "title": "Excelência em tecnologias de sensoriamento",
+        "icon": "/images/captura-dados-precisao.webp",
+        "text": [
+          "Empregamos sensores de última geração para capturar dados com precisão milimétrica, garantindo resultados confiáveis em processos de inspeção. Nossos sistemas integram sensores ópticos, térmicos e estruturais, adaptados às necessidades específicas de cada setor.",
+          "Essa abordagem permite diagnósticos mais completos, reduz erros operacionais e aumenta a segurança em ambientes industriais complexos, como óleo e gás, mineração e siderurgia."
+        ]
+      },
+      {
+        "imgSrc": "/images/sustentabilidade-e-eficiencia.webp",
+        "imgAlt": "Sobrevôo de drone sobre refinaria de petróleo",
+        "title": "Soluções sustentáveis e eficientes",
+        "icon": "/images/eficiencia-e-sustentabilidade.webp",
+        "text": [
+          "Nossas tecnologias são projetadas para aumentar a eficiência operacional e reduzir impactos ambientais. Ao automatizar processos e antecipar falhas, contribuímos para o uso racional de recursos, menor emissão de resíduos e maior vida útil dos ativos.",
+          "A Leap acredita que inovação e sustentabilidade caminham juntas — por isso, nossas soluções unem inteligência artificial, automação e responsabilidade ambiental."
+        ]
+      },
+      {
+        "imgSrc": "/images/sistemas-autonomos.webp",
+        "imgAlt": "Drones sobrevoando horizonte urbano ao pôr do sol.",
+        "title": "Sistemas autônomos para inspeções inteligentes",
+        "icon": "/images/automacao-para-eficiencia.webp",
+        "text": [
+          "Utilizamos sistemas autônomos, como drones e plataformas robotizadas, para realizar inspeções com segurança e eficiência. Essa abordagem reduz a exposição humana a ambientes de risco, acelera a coleta de dados e melhora a qualidade das análises.",
+          "Com operação remota e integração com nossos softwares, nossa competência em sistemas autônomos é ideal para ativos de difícil acesso ou em áreas críticas."
+        ]
+      },
+      {
+        "imgSrc": "/images/solucoes-inspecao-ativos.webp",
+        "imgAlt": "Imagem térmica de ativo em subestação elétrica.",
+        "title": "Soluções de inspeção ponta a ponta",
+        "icon": "/images/inspecao-gestao-ativos.webp",
+        "text": [
+          "Oferecemos soluções completas de inspeção, desde a coleta de dados visuais e térmicos até a geração automatizada de relatórios.",
+          "Nossos sistemas se integram facilmente aos softwares de gestão de ativos dos clientes, garantindo fluidez operacional e rastreabilidade.",
+          "Com foco em eficiência e precisão, a Leap transforma o processo de inspeção em uma ferramenta estratégica para tomada de decisão."
+        ]
+      },
+      {
+        "imgSrc": "/images/solucoes-customizadas.webp",
+        "imgAlt": "Engenheiro apontando informação em tela para sua supervisora.",
+        "title": "Software personalizado para o seu setor",
+        "icon": "/images/servicos-especializados.webp",
+        "text": [
+          "Adaptamos nossos sistemas para atender aos desafios específicos de cada indústria.",
+          "Desenvolvemos funcionalidades sob medida, incorporando IA e visão computacional para resolver problemas reais com agilidade e precisão.",
+          "Seja em óleo e gás, mineração ou infraestrutura, nossas soluções são moldadas para se encaixar perfeitamente às demandas técnicas e operacionais de cada cliente."
+        ]
+      }
+    ]
+  }
+}
