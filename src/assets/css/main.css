@@ -2236,6 +2236,10 @@ input, select, textarea {
 			position: relative;
 		}
 
+			ul.icon-bullets li:not(:first-child).condensed {
+				margin-top: 1.25em;
+			}
+
 			ul.icon-bullets li:before {
 				background: #f6b34e;
 				color: #ffffff;

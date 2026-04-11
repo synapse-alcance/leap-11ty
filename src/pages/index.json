@@ -92,5 +92,55 @@
         ]
       }
     ]
+  },
+  "harpia": {
+    "header": {
+      "title": "Revele o que é invisível aos olhos com o Harpia",
+      "subtitle": "Solução de inspeção para ativos de grande porte."
+    },
+    "imgSrc": "/images/harpia.webp",
+    "imgAlt": "Captura de tela demonstrando a interface do sistema Harpia.",
+    "text": [
+      "Harpia é o nosso sistema inteligente de inspeção automatizada, desenvolvido para transformar dados operacionais em insights acionáveis por meio de modelos de inteligência artificial personalizados.",
+      "Utilizando técnicas avançadas de visão computacional e aprendizado de máquina, o Harpia realiza análises preditivas sobre o estado de ativos industriais, permitindo antecipar falhas, otimizar rotinas de manutenção e reduzir significativamente o número de paradas não programadas.Essa abordagem orientada por dados contribui diretamente para o aumento da eficiência operacional e para a mitigação de riscos críticos.",
+      "Todas as nossas soluções são concebidas sob medida, com foco nos desafios específicos de cada setor — como óleo e gás, mineração, siderurgia e utilities — garantindo não apenas o desempenho ideal dos ativos monitorados, mas também a promoção de ambientes de trabalho mais seguros, confiáveis e sustentáveis."
+    ],
+    "kpis": [
+      {
+        "icon": "",
+        "style": "solid",
+        "text": "Até <strong>30% de redução do tempo de inspeção</strong> quando comparado a métodos tradicionais"
+      },
+      {
+        "icon": "",
+        "style": "solid",
+        "text": "<strong>Redução ou eliminação</strong> de trabalhos em altura."
+      },
+      {
+        "icon": "",
+        "style": "solid",
+        "text": "<strong>Assertividade inicial superior a 80%</strong>, com significativa melhora após calibração gradual."
+      },
+      {
+        "icon": "",
+        "style": "solid",
+        "text": "<strong>Assertividade final de até 95%</strong>, após realização de calibrações com parâmetros do cliente."
+      },
+      {
+        "icon": "",
+        "style": "solid",
+        "text": "Relatórios técnicos automatizados com classificação da corrosão segundo <strong>normas técnicas internacionais</strong>."
+      },
+      {
+        "icon": "",
+        "style": "solid",
+        "text": "Destaque positivo para a <strong>precisão, rastreabilidade e usabilidade</strong> segundo as equipes de campo."
+      },
+      {
+        "icon": "",
+        "style": "solid",
+        "text": "<strong>Suporte à tomada rápida de decisão</strong>, com foco em áreas críticas identificadas pelo sistema."
+      }
+    ]
   }
 }

@@ -68,6 +68,30 @@ permalink: "/"
         </div>
       </section>
 
+      <!-- Harpia -->
+      <section id="harpia">
+        <div class="row">
+          <div class="col-4 col-12-narrow">
+            <header>
+              <h2>{{ harpia.header.title }}</h2>
+            </header>
+            {% for paragraph in harpia.text %}
+            <p>{{ paragraph }}</p>
+            {% endfor %}
+          </div>
+          <div class="col-8 col-12-narrow">
+            <div class="image fit">
+              <img src="{{ site.path.prefix }}{{ site.path.assets }}{{ harpia.imgSrc }}" alt="{{ harpia.imgAlt }}">
+            </div>
+            <ul class="icon-bullets">
+              {% for bullet in harpia.kpis %}
+                <li class="icon condensed solid fa-cog">{{ bullet.text | safe }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </section>
+
       <!-- One -->
       <section class="features">
         <div class="row">
