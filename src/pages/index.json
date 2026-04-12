@@ -142,5 +142,28 @@
         "text": "<strong>Suporte à tomada rápida de decisão</strong>, com foco em áreas críticas identificadas pelo sistema."
       }
     ]
+  },
+  "specialists": {
+    "header": {
+      "title": "Um time de especialistas do setor e cientistas de dados experientes"
+    },
+    "text": [
+      "A Leap é uma provedora de soluções tecnológicas, nascida da experiência acumulada ao longo de décadas em operações industriais e inovação.",
+      "Formada por profissionais com vivência e conhecimento técnico nos setores de óleo e gás, mineração e siderurgia, nossa equipe combina know-how com ciência de dados de ponta para entregar soluções inteligentes e escaláveis para clientes corporativos e governamentais.",
+      "Especializada em gestão de ativos e inspeção preditiva, a Leap utiliza modelos avançados de inteligência artificial, visão computacional e plataformas proprietárias como o Harpia e o Nautilus para otimizar operações, reduzir paradas não programadas e mitigar riscos críticos.",
+      "Nossas soluções são projetadas para enfrentar os desafios complexos de organizações de grande porte, promovendo ambientes mais seguros, maior eficiência operacional e sustentabilidade de longo prazo.",
+      "Com operações no Brasil e nos Estados Unidos, a Leap está estrategicamente posicionada para atender clientes globais por meio de um modelo enxuto, seguro e colaborativo — combinando execução local com inteligência centralizada."
+    ],
+    "card": {
+      "imgSrc": "/images/trophy.webp",
+      "imgAlt": "Clipart image of a trophy.",
+      "text": [
+        "Nossa equipe já foi destacada em diferentes veículos pelo desenvolvimento do projeto Harpia, selecionado em edital de inovação competitivo. Reconhecimento que reforça nossa capacidade de entregar soluções inovadoras com alto rigor técnico e impacto real no setor industrial."
+      ],
+      "cta": {
+        "link": "https://www.cnnbrasil.com.br/economia/investimentos/petrobras-lanca-edital-de-r-20-milhoes-com-30-desafios-para-startups/",
+        "text": "Ver"
+      }
+    }
   }
 }

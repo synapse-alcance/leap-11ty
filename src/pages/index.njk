@@ -29,7 +29,7 @@ permalink: "/"
       <p>{{ paragraph }}</p>
       {% endfor %}
       <ul class="actions">
-        <li><a href="{{ site.links.whatsapp }}" class="button primary large">Saiba mais</a></li>
+        <li><a href="{{ site.links.whatsapp }}" class="button primary large" target="_blank">Saiba mais</a></li>
       </ul>
     </footer>
   </div>
@@ -94,9 +94,40 @@ permalink: "/"
           </div>
           <footer class="centered">
             <ul class="actions">
-              <li><a href="{{ site.links.whatsapp }}" class="button primary large">Conheça</a></li>
+              <li><a href="{{ site.links.whatsapp }}" class="button primary large" target="_blank">Conheça</a></li>
             </ul>
           </footer>
+        </div>
+      </section>
+
+      <!-- Specialists -->
+      <section id="specialists">
+        <div class="row">
+          <div class="col-12">
+            <header>
+              <h2 class="centered">{{ specialists.header.title }}</h2>
+            </header>
+            <div class="double-column">
+              {% for paragraph in specialists.text %}
+              <p>{{ paragraph }}</p>
+              {% endfor %}
+              <div class="card design1">
+                <div class="card-content">
+                  <div id="specialists-card-picture">
+                    <img src="{{ site.path.prefix }}{{ site.path.assets }}{{ specialists.card.imgSrc }}" alt="{{ specialists.card.imgAlt }}">
+                  </div>
+                  <div>
+                    {% for paragraph in specialists.card.text %}
+                      <p>{{ paragraph }}</p>
+                    {% endfor %}
+                  </div>
+                  <div id="specialists-card-cta">
+                    <a href="{{ specialists.card.cta.link }}" target="_blank">{{ specialists.card.cta.text }}</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
