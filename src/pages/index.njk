@@ -29,7 +29,7 @@ permalink: "/"
       <p>{{ paragraph }}</p>
       {% endfor %}
       <ul class="actions">
-        <li><a href="#" class="button primary large">Saiba mais</a></li>
+        <li><a href="{{ site.links.whatsapp }}" class="button primary large">Saiba mais</a></li>
       </ul>
     </footer>
   </div>
@@ -85,10 +85,18 @@ permalink: "/"
             </div>
             <ul class="icon-bullets">
               {% for bullet in harpia.kpis %}
-                <li class="icon condensed solid fa-cog">{{ bullet.text | safe }}</li>
+                <li class="icon condensed">
+                  <i class="{{ bullet.style }} {{ bullet.icon }}"></i>
+                  {{ bullet.text | safe }}
+                </li>
               {% endfor %}
             </ul>
           </div>
+          <footer class="centered">
+            <ul class="actions">
+              <li><a href="{{ site.links.whatsapp }}" class="button primary large">Conheça</a></li>
+            </ul>
+          </footer>
         </div>
       </section>
 

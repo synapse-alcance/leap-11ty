@@ -1979,7 +1979,7 @@ input, select, textarea {
 		position: relative;
 	}
 
-		.icon:before {
+		/* .icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			display: inline-block;
@@ -1990,19 +1990,19 @@ input, select, textarea {
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
 			font-weight: 400;
-		}
+		} */
 
 		.icon > .label {
 			display: none;
 		}
 
-		.icon.solid:before {
+		/* .icon.solid:before {
 			font-weight: 900;
-		}
+		} */
 
-		.icon.brands:before {
+		/* .icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
-		}
+		} */
 
 /* Image */
 
@@ -2240,7 +2240,7 @@ input, select, textarea {
 				margin-top: 1.25em;
 			}
 
-			ul.icon-bullets li:before {
+			ul.icon-bullets li i {
 				background: #f6b34e;
 				color: #ffffff;
 				cursor: default;
@@ -3324,8 +3324,13 @@ input, select, textarea {
 
 /* Own styles */
 
-.centered {
+h2.centered {
 	text-align: center;
+}
+
+footer.centered {
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .bottom-gutter {

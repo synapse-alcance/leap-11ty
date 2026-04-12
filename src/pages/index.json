@@ -107,38 +107,38 @@
     ],
     "kpis": [
       {
-        "icon": "",
-        "style": "solid",
+        "style": "fa-solid",
+        "icon": "fa-hourglass",
         "text": "Até <strong>30% de redução do tempo de inspeção</strong> quando comparado a métodos tradicionais"
       },
       {
-        "icon": "",
-        "style": "solid",
+        "style": "fa-solid",
+        "icon": "fa-person-falling",
         "text": "<strong>Redução ou eliminação</strong> de trabalhos em altura."
       },
       {
-        "icon": "",
-        "style": "solid",
+        "style": "fa-solid",
+        "icon": "fa-check",
         "text": "<strong>Assertividade inicial superior a 80%</strong>, com significativa melhora após calibração gradual."
       },
       {
-        "icon": "",
-        "style": "solid",
+        "style": "fa-solid",
+        "icon": "fa-check-double",
         "text": "<strong>Assertividade final de até 95%</strong>, após realização de calibrações com parâmetros do cliente."
       },
       {
-        "icon": "",
-        "style": "solid",
+        "style": "fa-solid",
+        "icon": "fa-file-circle-check",
         "text": "Relatórios técnicos automatizados com classificação da corrosão segundo <strong>normas técnicas internacionais</strong>."
       },
       {
-        "icon": "",
-        "style": "solid",
+        "style": "fa-solid",
+        "icon": "fa-crosshairs",
         "text": "Destaque positivo para a <strong>precisão, rastreabilidade e usabilidade</strong> segundo as equipes de campo."
       },
       {
-        "icon": "",
-        "style": "solid",
+        "style": "fa-solid",
+        "icon": "fa-lightbulb",
         "text": "<strong>Suporte à tomada rápida de decisão</strong>, com foco em áreas críticas identificadas pelo sistema."
       }
     ]
