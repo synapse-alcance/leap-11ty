@@ -8,6 +8,7 @@ export default function (eleventyConfig) {
 		"src/assets/css": site.path.prefix + site.path.assets + "/css",
 		"src/assets/images": site.path.prefix + site.path.assets + "/images",
 		"src/assets/js": site.path.prefix + site.path.assets + "/js",
-		"src/assets/webfonts": site.path.prefix + site.path.assets + "/webfonts"
+		"src/assets/webfonts": site.path.prefix + site.path.assets + "/webfonts",
+		"src/assets/fontawesome": site.path.prefix + site.path.assets + "/fontawesome"
 	});
 }
