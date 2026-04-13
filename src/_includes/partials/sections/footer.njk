@@ -1,57 +1,78 @@
 <div class="container">
   <div class="row">
-    <div class="col-3 col-6-narrow col-12-mobilep">
-      <h3>Feugiat sed consequat</h3>
-      <ul class="alt">
-        <li><a href="#">Phasellus sed scelerisque</a></li>
-        <li><a href="#">Donec tempus et tortor ultricies</a></li>
-        <li><a href="#">Eget pellentesque turpis ultrices</a></li>
-        <li><a href="#">Vestibulum ut nulla vel magna</a></li>
-        <li><a href="#">Iaculis arcu nulla vel lorem nisl</a></li>
-        <li><a href="#">Quis ultricies tellus et imperdiet</a></li>
-      </ul>
-    </div>
-    <div class="col-3 col-6-narrow col-12-mobilep">
-      <h3>Pellentesque et turpis</h3>
-      <ul class="alt">
-        <li><a href="#">Phasellus sed scelerisque</a></li>
-        <li><a href="#">Donec tempus et tortor ultricies</a></li>
-        <li><a href="#">Eget pellentesque turpis ultrices</a></li>
-        <li><a href="#">Vestibulum ut nulla vel magna</a></li>
-        <li><a href="#">Iaculis arcu nulla vel lorem nisl</a></li>
-        <li><a href="#">Quis ultricies tellus et imperdiet</a></li>
-      </ul>
-    </div>
-    <div class="col-6 col-12-narrow">
-      <h3>Malesuada vivamus lacus</h3>
-      <p>Phasellus dapibus convallis scelerisque. Donec tempus augue id tortor ultricies eget pellentesque turpis ultrices. Vestibulum ut nulla sem, vel iaculis arcu. Nulla vel lorem nisl sed quis ultricies tellus. Nunc laoreet. Nunc imperdiet elit sed dolore lacus venenatis rutrum.</p>
-      <h3>Tellus nunc dapibus</h3>
-      <div class="row">
-        <div class="col-6 col-12-mobilep">
-          <ul class="labeled-icons">
-            <li>
-              <h3 class="icon solid fa-map-marker-alt"><span class="label">Address</span></h3>
-              1234 Somewhere Rd.<br />
-              Nashville, TN 00000
-            </li>
-            <li>
-              <h3 class="icon solid fa-phone"><span class="label">Phone</span></h3>
-              (000) 000-0000
-            </li>
-          </ul>
+    <div class="col-8 col-12-mobile">
+      <form
+        action="https://formspree.io/f/mvzdogba"
+        method="POST"
+      >
+        <div class="row">
+          <div class="col-12">
+            <label>
+              Nome completo:
+              <input type="text" name="name" required>
+            </label>
+          </div>
+          <div class="col-12">
+            <label>
+              Endereço de email:
+              <input type="email" name="email" required>
+            </label>
+          </div>
+          <div class="col-6">
+            <label>
+              Telefone:
+              <input type="text" name="phone">
+            </label>
+          </div>
+          <div class="col-6">
+            <label>
+              Motivo:
+              <select name="reason" required>
+                <option value="schedule">Agendamento</option>
+                <option value="doubt">Dúvida</option>
+                <option value="info">Pedido de informação</option>
+                <option value="suggestion">Sugestão</option>
+                <option value="other">Outro</option>
+              </select>
+            </label>
+          </div>
+          <div class="col-12">
+            <label>
+              Texto da mensagem:
+              <textarea name="message" required></textarea>
+            </label>
+          </div>
+          <div class="col-12">
+            <button class="button primary" type="submit">Enviar</button>
+          </div>
         </div>
-        <div class="col-6 col-12-mobilep">
-          <ul class="labeled-icons">
-            <li>
-              <h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-              <a href="#">info@untitled.tld</a>
-            </li>
-            <li>
-              <h3 class="icon brands fa-twitter"><span class="label">Twitter</span></h3>
-              <a href="#">@untitledcorp-tld</a>
-            </li>
-          </ul>
-        </div>
+      </form>
+    </div>
+    <div class="col-4 col-12-mobile">
+      <h3>Informações de contato</h3>
+        <ul class="labeled-icons">
+          {% for item in site.contact %}
+          <li>
+            <h3 class="icon">
+              <i class="{{ item.style }} {{ item.icon }}"></i>
+            </h3>
+            <a href="{{ item.link }}">
+              {{ item.text | safe }}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <p class="credits">
+          &copy; {% year %} Leap Soluções em Tecnologia Ltda. <br/>
+          CNPJ: 37.303.055/0001-80
+        </p>
+        <p class="credits">
+          Desenvolvido por <a href="https://synapse.ad/">Synapse Alcance Digital</a>
+        </p>
       </div>
     </div>
   </div>

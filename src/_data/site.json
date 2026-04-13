@@ -11,7 +11,27 @@
     "prefix": "",
     "assets": "/assets"
   },
-  "links": {
-    "whatsapp": "http://wa.me/5531971156771"
-  }
+  "contact": [
+    {
+      "type": "email",
+      "style": "fa-solid",
+      "icon": "fa-at",
+      "link": "mailto:contato@leap.tec.br",
+      "text": "contato@leap.tec.br"
+    },
+    {
+      "type": "wpp",
+      "style": "fa-brands",
+      "icon": "fa-whatsapp",
+      "link": "http://wa.me/5531971156771",
+      "text": "(31) 97115-6771 (WhatsApp)"
+    },
+    {
+      "type": "address",
+      "style": "fa-solid",
+      "icon": "fa-location-dot",
+      "link": "#",
+      "text": "R. Padre Silveira Lobo, 610 <br/> Pampulha, Belo Horizonte, MG <br/> CEP: 31.270-740"
+    }
+  ]
 }

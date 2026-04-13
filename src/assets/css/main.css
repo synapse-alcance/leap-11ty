@@ -1780,10 +1780,10 @@ input, select, textarea {
 	}
 
 	label {
-		color: #575d60;
+		color: #ccc;
 		display: block;
-		font-size: 0.9em;
-		font-weight: 600;
+		/* font-size: 0.9em; */
+		font-weight: 800;
 		margin: 0 0 1em 0;
 	}
 
@@ -1796,9 +1796,9 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: rgba(144, 150, 154, 0.075);
+		background: rgba(144, 150, 154, 0.15);
 		border: none;
-		border: solid 2px #e8eaeb;
+		border: solid 2px #aaa;
 		border-radius: 0;
 		color: inherit;
 		display: block;
@@ -1806,6 +1806,11 @@ input, select, textarea {
 		padding: 0 1em;
 		text-decoration: none;
 		width: 100%;
+		resize: none;
+	}
+
+	textarea {
+		min-height: 120px;
 	}
 
 		input[type="text"]:invalid,
@@ -2278,9 +2283,9 @@ input, select, textarea {
 				top: 0;
 			}
 
-				ul.labeled-icons li .icon:before {
+				ul.labeled-icons li .icon i {
 					background: #ffc112;
-					color: #ffffff;
+					color: #333c40;
 					cursor: default;
 					display: block;
 					height: 2em;
@@ -3444,6 +3449,23 @@ footer.centered {
 .hilights-card-content {
 	flex: 3;
 }
+
+.credits {
+	color: #858a8c;
+	line-height: 1em;
+	text-align: center;
+	margin-bottom:0.75em;
+}
+
+	.credits a {
+		color: rgb(204, 206, 207);
+		text-decoration: none;
+		font-weight: 400;
+	}
+
+	.credits a:hover {
+		color: #ffc112;
+	}
 
 @media screen and (max-width: 980px) {
 	.specialists-card-picture {
