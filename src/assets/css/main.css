@@ -3335,9 +3335,22 @@ h2.centered {
 	text-align: center;
 }
 
-footer.centered {
-	margin-left: auto;
-	margin-right: auto;
+.cta.centered {
+	margin: auto;
+	padding: 0;
+}
+
+	.cta.centered > ul {
+		margin: 0;
+		justify-content: space-around;
+	}
+
+	.cta.centered > ul > li {
+		padding: 0;
+	}
+
+.cta button {
+	padding: 0 2em 0 2em;
 }
 
 .bottom-gutter {
