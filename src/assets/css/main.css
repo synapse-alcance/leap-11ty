@@ -3406,6 +3406,11 @@ footer.centered {
 	color: #e8eaeb;
 }
 
+#specialists-card-cta a i{
+	vertical-align: 2px;
+	font-size: 0.6em;
+}
+
 @media screen and (max-width: 736px) {
 	.double-column {
 		column-count: 1;
