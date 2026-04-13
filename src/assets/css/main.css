@@ -3452,6 +3452,7 @@ h2.centered {
 
 .hilights-card-picture {
 	flex: 1;
+	min-width: 32px;
 	max-width: 48px;
 }
 
