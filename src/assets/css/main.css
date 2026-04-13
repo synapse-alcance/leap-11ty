@@ -2241,7 +2241,7 @@ input, select, textarea {
 			}
 
 			ul.icon-bullets li i {
-				background: #ffc112;
+				background: rgb(95,137,255);
 				color: #ffffff;
 				cursor: default;
 				display: block;
@@ -2450,7 +2450,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		.button.primary {
 			background-color: #ffc112;
-			color: #ffffff !important;
+			color: rgb(87, 93, 96) !important;
 			border-color: #ffc112;
 		}
 
