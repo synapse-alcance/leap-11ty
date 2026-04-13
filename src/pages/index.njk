@@ -113,15 +113,15 @@ permalink: "/"
               {% endfor %}
               <div class="card design1">
                 <div class="card-content">
-                  <div id="specialists-card-picture">
+                  <div class="specialists-card-picture">
                     <img src="{{ site.path.prefix }}{{ site.path.assets }}{{ specialists.card.imgSrc }}" alt="{{ specialists.card.imgAlt }}">
-                  </div>
-                  <div>
+                  </div >
+                  <div class="specialists-card-text">
                     {% for paragraph in specialists.card.text %}
                       <p>{{ paragraph }}</p>
                     {% endfor %}
                   </div>
-                  <div id="specialists-card-cta">
+                  <div class="specialists-card-cta">
                     <a href="{{ specialists.card.cta.link }}" target="_blank">{{ specialists.card.cta.text }}&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i>
                     </a>
                   </div>
@@ -132,110 +132,31 @@ permalink: "/"
         </div>
       </section>
 
-      <!-- One -->
-      <section class="features">
-        <div class="row">
-          <div class="col-3 col-12-narrow">
-            <div class="intro">
-              <h2>Amet veroeros<br />
-              feugiat et dolor?</h2>
-              <p>Sem et vestibulum lorem sed blandit consequat et ultrices nullam nisl lorem feugiat lorem ipsum consequat:</p>
-              <ul class="icon-bullets">
-                <li class="icon solid fa-chart-area">Lorem ipsum dolor amet</li>
-                <li class="icon solid fa-cog">Nulla vel nisl consequat</li>
-                <li class="icon solid fa-file">Feugiat veroeros lorem</li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-3 col-4-narrow col-12-mobile">
-            <section>
-              <a href="#" class="image fit"><img src="{{ site.path.prefix }}{{ site.path.assets }}/images/pic01.jpg" alt="" /></a>
-              <h3>Nullam arcu consequat</h3>
-              <p>Phasellus dapibus sed convallis feugiat ipsum. Donec tesque turpis sed amet ultrices vestibulum nulla.</p>
-              <ul class="actions">
-                <li><a href="#" class="button">Learn More</a></li>
-              </ul>
-            </section>
-          </div>
-          <div class="col-3 col-4-narrow col-12-mobile">
-            <section>
-              <a href="#" class="image fit"><img src="{{ site.path.prefix }}{{ site.path.assets }}/images/pic02.jpg" alt="" /></a>
-              <h3>Dapibus etiam lorem</h3>
-              <p>Phasellus dapibus sed convallis feugiat ipsum. Donec tesque turpis sed amet ultrices vestibulum nulla.</p>
-              <ul class="actions">
-                <li><a href="#" class="button">Learn More</a></li>
-              </ul>
-            </section>
-          </div>
-          <div class="col-3 col-4-narrow col-12-mobile">
-            <section>
-              <a href="#" class="image fit"><img src="{{ site.path.prefix }}{{ site.path.assets }}/images/pic03.jpg" alt="" /></a>
-              <h3>Sed imperdiet adipiscing</h3>
-              <p>Phasellus dapibus sed convallis feugiat ipsum. Donec tesque turpis sed amet ultrices vestibulum nulla.</p>
-              <ul class="actions">
-                <li><a href="#" class="button">Learn More</a></li>
-              </ul>
-            </section>
-          </div>
-        </div>
-      </section>
-
-      <!-- Two -->
-      <section>
-        <div class="row">
-          <div class="col-6 col-12-mobile">
-            <section>
-              <a href="#" class="image fit"><img src="{{ site.path.prefix }}{{ site.path.assets }}/images/pic04.jpg" alt="" /></a>
-              <header>
-                <h3>Feugiat phasellus sed consequat</h3>
-                <p>Lorem ipsum dolor sit amet veroeros</p>
-              </header>
-              <p>Phasellus dapibus convallis scelerisque. Donec tempus augue id tortor ultricies eget pellentesque turpis ultrices. Vestibulum ut nulla sem, vel iaculis arcu. Nulla vel lorem nisl, quis ultricies tellus. Nunc imperdiet elit sed dolore lacus venenatis rutrum. Vivamus vulputate urna dolor est sagittis purus, in laoreet.</p>
-              <ul class="actions">
-                <li><a href="#" class="button">Learn More</a></li>
-              </ul>
-            </section>
-          </div>
-          <div class="col-6 col-12-mobile">
-            <section>
-              <a href="#" class="image fit"><img src="{{ site.path.prefix }}{{ site.path.assets }}/images/pic05.jpg" alt="" /></a>
-              <header>
-                <h3>Dapibus lorem luctus volutpat rutrum</h3>
-                <p>Lorem ipsum dolor sit amet veroeros</p>
-              </header>
-              <p>Phasellus dapibus convallis scelerisque. Donec tempus augue id tortor ultricies eget pellentesque turpis ultrices. Vestibulum ut nulla sem, vel iaculis arcu. Nulla vel lorem nisl, quis ultricies tellus. Nunc imperdiet elit sed dolore lacus venenatis rutrum. Vivamus vulputate urna dolor est sagittis purus, in laoreet.</p>
-              <ul class="actions">
-                <li><a href="#" class="button">Learn More</a></li>
-              </ul>
-            </section>
-          </div>
-        </div>
-      </section>
-
-      <!-- Three -->
-      <section>
+      <!-- Hilights -->
+      <section id="hilights">
         <header>
-          <h3>Dolore rutrum arcu nullam ultricies</h3>
-          <p>Lorem ipsum dolor sit amet veroeros</p>
+          <h2 class="centered">{{ hilights.header.title }}</h2>
+          <p>{{ hilights.header.subtitle }}</p>
         </header>
-        <p>Phasellus dapibus convallis scelerisque. Donec tempus augue id tortor ultricies eget pellentesque turpis ultrices. Vestibulum ut nulla sem, vel iaculis arcu. Nulla vel lorem nisl, quis ultricies tellus. Nunc imperdiet elit sed dolore lacus venenatis rutrum. Vivamus vulputate urna dolor est sagittis purus, in laoreet.</p>
         <div class="row">
-          <div class="col-3 col-6-narrow col-12-mobilep">
-            <a href="#" class="image fit"><img src="{{ site.path.prefix }}{{ site.path.assets }}/images/pic06.jpg" alt="" /></a>
-            <p><strong>Phasellus convallis</strong> scelerisque et amet donec tellus lorem ipsum.</p>
-          </div>
-          <div class="col-3 col-6-narrow col-12-mobilep">
-            <a href="#" class="image fit"><img src="{{ site.path.prefix }}{{ site.path.assets }}/images/pic07.jpg" alt="" /></a>
-            <p><strong>Phasellus convallis</strong> scelerisque et amet donec tellus lorem ipsum.</p>
-          </div>
-          <div class="col-3 col-6-narrow col-12-mobilep">
-            <a href="#" class="image fit"><img src="{{ site.path.prefix }}{{ site.path.assets }}/images/pic08.jpg" alt="" /></a>
-            <p><strong>Phasellus convallis</strong> scelerisque et amet donec tellus lorem ipsum.</p>
-          </div>
-          <div class="col-3 col-6-narrow col-12-mobilep">
-            <a href="#" class="image fit"><img src="{{ site.path.prefix }}{{ site.path.assets }}/images/pic09.jpg" alt="" /></a>
-            <p><strong>Phasellus convallis</strong> scelerisque et amet donec tellus lorem ipsum.</p>
-          </div>
+          {% for item in hilights.cards %}
+            <div class="col-4 col-6-mobile">
+              <div class="hilights-card">
+                <div class="hilights-card-picture">
+                  <img src="{{ site.path.prefix }}{{ site.path.assets }}{{ item.icon }}" alt="Ícone abstrato.">
+                </div>
+                <div class="hilights-card-content">
+                  <h4>{{ item.title | safe }}</h4>
+                  <p>{{ item.text }}</p>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+          <footer class="centered">
+            <ul class="actions">
+              <li><a href="{{ site.links.whatsapp }}" class="button primary large" target="_blank">Agendar</a></li>
+            </ul>
+          </footer>
         </div>
       </section>
 

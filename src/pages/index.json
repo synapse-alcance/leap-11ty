@@ -165,5 +165,43 @@
         "text": "Ver"
       }
     }
+  },
+  "hilights": {
+    "header": {
+      "title": "Nossos diferenciais",
+      "subtitle": "Ajudamos nossos clientes a transformar desafios em conquistas reais, com entregas objetivas, assertivas e escaláveis. Cada projeto é tratado como único, entendemos as necessidades de cada cliente e oferecemos caminhos capazes de gerar impacto verdadeiro."
+    },
+    "cards": [
+      {
+        "icon": "/images/solucoes-ia-customizadas.webp",
+        "title": "Soluções de IA <br/> customizadas",
+        "text": "Especializadas para atender aos objetivos e desafios comerciais únicos do seu setor."
+      },
+      {
+        "icon": "/images/expertise-avancada-ia.webp",
+        "title": "Expertise e tecnologias <br/> em IA avançadas",
+        "text": "Disponibilizamos tecnologias para que seus sistemas permaneçam na vanguarda da inovação digital."
+      },
+      {
+        "icon": "/images/custo-beneficio.webp",
+        "title": "Elevada relação <br/> custo-benefício",
+        "text": "Soluções de IA de alta qualidade e acessíveis para maximizar o desempenho das suas operações."
+      },
+      {
+        "icon": "/images/abordagem-focada-cliente.webp",
+        "title": "Abordagem centrada <br/> no cliente",
+        "text": "Possibilitamos monitoramento proativo e contínuo para minimizar interrupções."
+      },
+      {
+        "icon": "/images/seguranca-abrangente.webp",
+        "title": "Cibersegurança flexível <br/> e abrangente",
+        "text": "Soluções projetadas para proteger seus dados e infraestrutura contra ameaças cibernéticas em evolução."
+      },
+      {
+        "icon": "/images/servicos-escalaveis.webp",
+        "title": "Serviços escaláveis <br/> e hospedados na nuvem",
+        "text": "Arquitetura que garante crescimento contínuo e adaptação às suas necessidades em evolução."
+      }
+    ]
   }
 }

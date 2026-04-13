@@ -3386,33 +3386,77 @@ footer.centered {
 .card-content {
 	display: flex;
 	align-items: center;
-	column-gap: 1em;
+	column-gap: 1.5em;
 	margin: 1em;
 }
 
-#specialists-card-picture {
-	width: 20em;
+.specialists-card-picture {
+	flex: 1;
+	min-width: 48px;
 }
 
-	#specialists-card-picture img {
+	.specialists-card-picture img {
 		width: 100%;
 		height: auto;
 	}
 
-#specialists-card-cta a {
-	text-decoration: none;
-	font-size: 1.25em;
-	font-weight: 800;
-	color: #e8eaeb;
+.specialists-card-text {
+	flex: 4;
 }
 
-#specialists-card-cta a i{
-	vertical-align: 2px;
-	font-size: 0.6em;
+.specialists-card-cta {
+	flex: 1;
+	text-align: center;
+}
+
+	.specialists-card-cta > a {
+		text-decoration: none;
+		font-size: 1.25em;
+		font-weight: 800;
+		color: #e8eaeb;
+		padding: 0.5em;
+	}
+
+		.specialists-card-cta a i{
+			vertical-align: 2px;
+			font-size: 0.6em;
+		}
+
+.hilights-card {
+	display: flex;
+	align-items: flex-start;
+	column-gap: 0.75em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.hilights-card-picture {
+	flex: 1;
+	max-width: 48px;
+}
+
+	.hilights-card-picture img {
+		width: 100%;
+		height: auto;
+	}
+
+.hilights-card-content {
+	flex: 3;
+}
+
+@media screen and (max-width: 980px) {
+	.specialists-card-picture {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 736px) {
 	.double-column {
 		column-count: 1;
+	}
+
+	.specialists-card-picture {
+		display: block;
+		flex: 0.5;
 	}
 }
